@@ -1,0 +1,32 @@
+{
+  "name": "@ishawnwang/stateful",
+  "version": "0.0.1",
+  "description": "React Component state machine",
+  "main": "./dist/index.js",
+  "typings": "./index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rollup": "^1.8.0",
+    "rollup-plugin-commonjs": "^9.3.0",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "stateful",
+    "state",
+    "machine"
+  ],
+  "author": "iShawnWang",
+  "license": "MIT"
+}
